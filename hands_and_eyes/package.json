@@ -1,0 +1,27 @@
+{
+  "name": "hands_and_eyes",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 5601",
+    "build": "next build",
+    "start-prod": "",
+    "push-to-prod": "next build && pnpm move-stuff && pm2 restart hands_and_eyes",
+    "move-stuff": "cp -r ./public/ ./.next/standalone/public/",
+    "start": "next start -p 5600",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.1.4"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.4"
+  }
+}
