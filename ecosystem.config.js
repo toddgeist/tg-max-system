@@ -2,7 +2,7 @@ module.exports = {
   apps: [
     {
       name: "hands_and_eyes",
-      script: "./hands_and_eyes/.next/standalone/server.js",
+      script: "./prod/hands_and_eyes/server.js",
       env: {
         PORT: 5600,
         NODE_ENV: "production",
