@@ -1,0 +1,26 @@
+﻿Timestamp	Filename	Error	Message
+2024-04-14 09:51:30.496 -0700	HandsAndEyes.fmp12	0	Import operations started
+2024-04-14 09:51:30.496 -0700	HandsAndEyes.fmp12	0	Import of custom functions from clipboard started
+2024-04-14 09:51:30.500 -0700	HandsAndEyes.fmp12	0	custom functions imported : 3
+2024-04-14 09:51:30.500 -0700	HandsAndEyes.fmp12	0	Import completed
+2024-04-14 09:51:32.788 -0700	HandsAndEyes.fmp12	0	Import operations committed
+2024-04-14 09:51:32.789 -0700	HandsAndEyes.fmp12	0	==================================================================
+2024-04-14 09:55:55.112 -0700	HandsAndEyes.fmp12	0	Import of scripts from clipboard started
+2024-04-14 09:55:55.115 -0700	Examples	0	script steps imported : 0
+2024-04-14 09:55:55.117 -0700	GetSimpleResult::21::Set Variable	106	Table referred to in the calculation “JSONSetElement ( ""; [ "name" ; Examples::Name ; JSONString ]; [ "layoutNames" ; $Layouts ; JSONArray ] )” is missing.
+2024-04-14 09:55:55.118 -0700	GetSimpleResult	0	script steps imported : 30
+2024-04-14 09:55:55.120 -0700	ExecuteDataAPI	0	script steps imported : 24
+2024-04-14 09:55:55.120 -0700	--	0	script steps imported : 0
+2024-04-14 09:55:55.120 -0700	-	0	script steps imported : 0
+2024-04-14 09:55:55.121 -0700	fm-webviewer-fetch	0	script steps imported : 0
+2024-04-14 09:55:55.122 -0700	SendCallBack	0	script steps imported : 25
+2024-04-14 09:55:55.123 -0700	FETCH CALLBACK TEMPLATE	0	script steps imported : 26
+2024-04-14 09:55:55.124 -0700	--	0	script steps imported : 0
+2024-04-14 09:55:55.124 -0700	HandsAndEyes.fmp12	0	scripts imported : 7
+2024-04-14 09:55:55.124 -0700	HandsAndEyes.fmp12	0	Import completed
+2024-04-14 16:52:58.035 -0700	HandsAndEyes.fmp12	0	Import operations started
+2024-04-14 16:52:58.036 -0700	HandsAndEyes.fmp12	0	Import of custom functions from clipboard started
+2024-04-14 16:52:58.038 -0700	HandsAndEyes.fmp12	0	custom functions imported : 1
+2024-04-14 16:52:58.038 -0700	HandsAndEyes.fmp12	0	Import completed
+2024-04-14 16:55:19.007 -0700	HandsAndEyes.fmp12	0	Import operations committed
+2024-04-14 16:55:19.008 -0700	HandsAndEyes.fmp12	0	==================================================================

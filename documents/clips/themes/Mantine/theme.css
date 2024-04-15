@@ -1,0 +1,1166 @@
+/* Object Styles */
+
+rounded:normal .self {
+  background-color: rgba(100%, 100%, 100%, 1);
+  border-top-color: rgba(80%, 80%, 80%, 1);
+  border-right-color: rgba(80%, 80%, 80%, 1);
+  border-bottom-color: rgba(80%, 80%, 80%, 1);
+  border-left-color: rgba(80%, 80%, 80%, 1);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 1pt;
+  border-right-width: 1pt;
+  border-bottom-width: 1pt;
+  border-left-width: 1pt;
+  border-top-right-radius: 5pt 5pt;
+  border-bottom-right-radius: 5pt 5pt;
+  border-bottom-left-radius: 5pt 5pt;
+  border-top-left-radius: 5pt 5pt;
+}
+
+rounded:normal .inner_border {
+  border-top-right-radius: 4pt 4pt;
+  border-bottom-right-radius: 4pt 4pt;
+  border-bottom-left-radius: 4pt 4pt;
+  border-top-left-radius: 4pt 4pt;
+}
+
+bottom_nav_part:normal .self {
+  background-color: rgba(100%, 100%, 100%, 1);
+  box-sizing: border-box;
+}
+
+checkbox_set:normal .self {
+  font-size: 12pt;
+  color: rgba(0%, 0%, 0%, 1);
+  line-height: 1.2line;
+  text-align: left;
+}
+
+checkbox_set:normal .text {
+  margin-left: 0.33em;
+  top: 0pt;
+  right: 0pt;
+  bottom: 0pt;
+  left: 1em;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+checkbox_set:normal .icon {
+  background-color: rgba(100%, 100%, 100%, 1);
+  border-top-color: rgba(80%, 80%, 80%, 1);
+  border-right-color: rgba(80%, 80%, 80%, 1);
+  border-bottom-color: rgba(80%, 80%, 80%, 1);
+  border-left-color: rgba(80%, 80%, 80%, 1);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 1pt;
+  border-right-width: 1pt;
+  border-bottom-width: 1pt;
+  border-left-width: 1pt;
+  padding-top: 0.08em;
+  padding-right: 0.08em;
+  padding-bottom: 0.08em;
+  padding-left: 0.08em;
+  width: 1em;
+  height: 1em;
+  top: 0.1em;
+  bottom: 0pt;
+  left: 0pt;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+checkbox_set:focus .icon {
+  border-top-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-right-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-bottom-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-left-color: rgba(0%, 43.9216%, 81.1765%, 1);
+}
+
+checkbox_set:checked .icon {
+  -fm-icon: modern-check;
+  -fm-icon-color: rgba(0%, 0%, 0%, 1);
+}
+
+rectangle:normal .self {
+  background-color: rgba(100%, 100%, 100%, 1);
+  border-top-color: rgba(80%, 80%, 80%, 1);
+  border-right-color: rgba(80%, 80%, 80%, 1);
+  border-bottom-color: rgba(80%, 80%, 80%, 1);
+  border-left-color: rgba(80%, 80%, 80%, 1);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 1pt;
+  border-right-width: 1pt;
+  border-bottom-width: 1pt;
+  border-left-width: 1pt;
+}
+
+top_nav_part:normal .self {
+  background-image: none;
+  background-color: rgba(87.0588%, 88.6274%, 90.1961%, 1);
+  border-image-source: none;
+  box-sizing: border-box;
+}
+
+line:normal .self {
+  border-top-color: rgba(0%, 0%, 0%, 1);
+  border-right-color: rgba(0%, 0%, 0%, 1);
+  border-bottom-color: rgba(0%, 0%, 0%, 1);
+  border-left-color: rgba(0%, 0%, 0%, 1);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 1pt;
+  border-right-width: 1pt;
+  border-bottom-width: 1pt;
+  border-left-width: 1pt;
+}
+
+text_box:normal .self {
+  font-family: -fm-font-family(Helvetica Neue, HelveticaNeue);
+  color: rgba(28.6275%, 31.3726%, 34.1176%, 1);
+  line-height: 1line;
+  text-align: left;
+}
+
+text_box:normal .text {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+trailing_grand_summary:normal .self {
+  background-color: rgba(100%, 100%, 100%, 1);
+  box-sizing: border-box;
+}
+
+portal:normal .self {
+  border-top-color: rgba(80%, 80%, 80%, 1);
+  border-right-color: rgba(80%, 80%, 80%, 1);
+  border-bottom-color: rgba(80%, 80%, 80%, 1);
+  border-left-color: rgba(80%, 80%, 80%, 1);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 1pt;
+  border-right-width: 1pt;
+  border-bottom-width: 1pt;
+  border-left-width: 1pt;
+  -fm-use-portal-current-row-style: true;
+}
+
+portal:normal .contents {
+  top: 0pt;
+  right: 17pt;
+  bottom: 0pt;
+  left: 0pt;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+portal:normal .row {
+  background-color: rgba(100%, 100%, 100%, 1);
+}
+
+portal:normal .row_alt {
+  background-color: rgba(96.0784%, 96.0784%, 96.0784%, 1);
+}
+
+portal:normal .scrollbar_track {
+  width: 17pt;
+  top: 0pt;
+  right: 0pt;
+  bottom: 0pt;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+portal:normal .row_active {
+  background-color: rgba(90.1961%, 93.7255%, 97.6471%, 1);
+}
+
+scrollbar:normal .self {
+  background-color: rgba(96.0784%, 96.0784%, 96.0784%, 1);
+  border-left-color: rgba(80%, 80%, 80%, 1);
+  border-left-style: solid;
+  border-left-width: 1pt;
+  width: 17pt;
+}
+
+scrollbar:disabled .self {
+  background-color: rgba(96.0784%, 96.0784%, 96.0784%, 1);
+  border-left-color: rgba(80%, 80%, 80%, 1);
+  border-left-style: solid;
+  border-left-width: 1pt;
+}
+
+scrollbar:normal .scrollbar_top_button {
+  background-color: rgba(100%, 100%, 100%, 1);
+  border-bottom-color: rgba(80%, 80%, 80%, 1);
+  border-left-color: rgba(80%, 80%, 80%, 1);
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-bottom-width: 1pt;
+  border-left-width: 1pt;
+  width: 100%;
+  height: 17pt;
+  -fm-icon: up-arrow;
+  -fm-icon-color: rgba(0%, 0%, 0%, 1);
+}
+
+scrollbar:hover .scrollbar_top_button {
+  border-bottom-color: rgba(80%, 80%, 80%, 1);
+  border-left-color: rgba(80%, 80%, 80%, 1);
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-bottom-width: 1pt;
+  border-left-width: 1pt;
+  width: 100%;
+  height: 17pt;
+}
+
+scrollbar:pressed .scrollbar_top_button {
+  background-color: rgba(92.1569%, 92.1569%, 92.1569%, 1);
+  border-bottom-color: rgba(80%, 80%, 80%, 1);
+  border-left-color: rgba(80%, 80%, 80%, 1);
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-bottom-width: 1pt;
+  border-left-width: 1pt;
+  width: 100%;
+  height: 17pt;
+}
+
+scrollbar:normal .scrollbar_bottom_button {
+  background-color: rgba(100%, 100%, 100%, 1);
+  border-top-color: rgba(80%, 80%, 80%, 1);
+  border-left-color: rgba(80%, 80%, 80%, 1);
+  border-top-style: solid;
+  border-left-style: solid;
+  border-top-width: 1pt;
+  border-left-width: 1pt;
+  width: 100%;
+  height: 17pt;
+  -fm-icon: down-arrow;
+  -fm-icon-color: rgba(0%, 0%, 0%, 1);
+}
+
+scrollbar:hover .scrollbar_bottom_button {
+  border-top-color: rgba(80%, 80%, 80%, 1);
+  border-left-color: rgba(80%, 80%, 80%, 1);
+  border-top-style: solid;
+  border-left-style: solid;
+  border-top-width: 1pt;
+  border-left-width: 1pt;
+  width: 100%;
+  height: 17pt;
+}
+
+scrollbar:pressed .scrollbar_bottom_button {
+  background-color: rgba(92.1569%, 92.1569%, 92.1569%, 1);
+  border-top-color: rgba(80%, 80%, 80%, 1);
+  border-left-color: rgba(80%, 80%, 80%, 1);
+  border-top-style: solid;
+  border-left-style: solid;
+  border-top-width: 1pt;
+  border-left-width: 1pt;
+  width: 100%;
+  height: 17pt;
+}
+
+scrollbar:normal .scrollbar_thumb {
+  background-color: rgba(100%, 100%, 100%, 1);
+  border-top-color: rgba(80%, 80%, 80%, 1);
+  border-bottom-color: rgba(80%, 80%, 80%, 1);
+  border-left-color: rgba(80%, 80%, 80%, 1);
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 1pt;
+  border-bottom-width: 1pt;
+  border-left-width: 1pt;
+  width: 100%;
+}
+
+popover:normal .self {
+  background-color: rgba(96.0784%, 96.0784%, 96.0784%, 1);
+  border-top-color: rgba(80%, 80%, 80%, 1);
+  border-right-color: rgba(80%, 80%, 80%, 1);
+  border-bottom-color: rgba(80%, 80%, 80%, 1);
+  border-left-color: rgba(80%, 80%, 80%, 1);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 1pt;
+  border-right-width: 1pt;
+  border-bottom-width: 1pt;
+  border-left-width: 1pt;
+  border-top-right-radius: 0pt 0pt;
+  border-bottom-right-radius: 0pt 0pt;
+  border-bottom-left-radius: 0pt 0pt;
+  border-top-left-radius: 0pt 0pt;
+  font-size: 12pt;
+  color: rgba(0%, 0%, 0%, 1);
+  line-height: 2line;
+  text-align: center;
+}
+
+popover:normal .text {
+  height: 1.42em;
+  top: 0.42em;
+  right: 8pt;
+  left: 8pt;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+popover:normal .contents {
+  top: 1.84em;
+  right: 6pt;
+  bottom: 6pt;
+  left: 6pt;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+calendar:normal .self {
+  background-color: rgba(100%, 100%, 100%, 1);
+  border-top-color: rgba(80%, 80%, 80%, 1);
+  border-right-color: rgba(80%, 80%, 80%, 1);
+  border-bottom-color: rgba(80%, 80%, 80%, 1);
+  border-left-color: rgba(80%, 80%, 80%, 1);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 1pt;
+  border-right-width: 1pt;
+  border-bottom-width: 1pt;
+  border-left-width: 1pt;
+  font-size: 12pt;
+  color: rgba(0%, 0%, 0%, 1);
+  line-height: 1line;
+  text-align: left;
+}
+
+calendar:focus .self {
+  border-top-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-right-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-bottom-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-left-color: rgba(0%, 43.9216%, 81.1765%, 1);
+}
+
+calendar:placeholder .self {
+  color: rgba(80%, 80%, 80%, 1);
+}
+
+calendar:normal .text {
+  margin-top: 0.25em;
+  margin-right: 0.5em;
+  margin-bottom: 0.17em;
+  margin-left: 0.5em;
+  top: 0pt;
+  right: 17pt;
+  bottom: 0pt;
+  left: 0pt;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+calendar:normal .icon {
+  background-color: rgba(96.0784%, 96.0784%, 96.0784%, 1);
+  border-left-color: rgba(80%, 80%, 80%, 1);
+  border-left-style: solid;
+  border-left-width: 1pt;
+  width: 17pt;
+  top: 0pt;
+  right: 0pt;
+  bottom: 0pt;
+  position: absolute;
+  box-sizing: border-box;
+  -fm-icon: calendar;
+  -fm-icon-color: rgba(0%, 0%, 0%, 1);
+}
+
+calendar:pressed .icon {
+  background-color: rgba(92.1569%, 92.1569%, 92.1569%, 1);
+}
+
+calendar:focus .icon {
+  border-left-color: rgba(0%, 43.9216%, 81.1765%, 1);
+}
+
+tab_panel:normal .self {
+  background-color: rgba(96.0784%, 96.0784%, 96.0784%, 1);
+  border-top-color: rgba(80%, 80%, 80%, 1);
+  border-right-color: rgba(80%, 80%, 80%, 1);
+  border-bottom-color: rgba(80%, 80%, 80%, 1);
+  border-left-color: rgba(80%, 80%, 80%, 1);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 1pt;
+  border-right-width: 1pt;
+  border-bottom-width: 1pt;
+  border-left-width: 1pt;
+}
+
+tab_panel:focus .self {
+  border-top-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-right-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-bottom-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-left-color: rgba(0%, 43.9216%, 81.1765%, 1);
+}
+
+tab_panel:checked .self {
+  background-image: none;
+  background-color: rgba(100%, 100%, 100%, 1);
+  border-top-color: rgba(80%, 80%, 80%, 1);
+  border-right-color: rgba(80%, 80%, 80%, 1);
+  border-bottom-color: rgba(80%, 80%, 80%, 1);
+  border-left-color: rgba(80%, 80%, 80%, 1);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 1pt;
+  border-right-width: 1pt;
+  border-bottom-width: 1pt;
+  border-left-width: 1pt;
+}
+
+tab_panel:checkedfocus .self {
+  border-top-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-right-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-bottom-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-left-color: rgba(0%, 43.9216%, 81.1765%, 1);
+}
+
+tab_panel:normal .text {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+tab_panel:hover .text {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+tab_panel:focus .text {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+tab_panel:checked .text {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+tab_panel:checkedfocus .text {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+tab_panel:normal .tab {
+  background-color: rgba(96.0784%, 96.0784%, 96.0784%, 1);
+}
+
+tab_panel:checked .tab {
+  background-image: none;
+  background-color: rgba(0%, 0%, 0%, 0);
+}
+
+tab_panel:normal .tab_inner_border {
+  padding-top: 0.17em;
+  padding-right: 0.67em;
+  padding-bottom: 0.17em;
+  padding-left: 0.67em;
+}
+
+body_alt:normal .self {
+  background-image: none;
+  background-color: rgba(96.0784%, 96.0784%, 96.0784%, 1);
+  border-image-source: none;
+  box-sizing: border-box;
+}
+
+oval:normal .self {
+  background-color: rgba(100%, 100%, 100%, 1);
+  border-top-color: rgba(80%, 80%, 80%, 1);
+  border-right-color: rgba(80%, 80%, 80%, 1);
+  border-bottom-color: rgba(80%, 80%, 80%, 1);
+  border-left-color: rgba(80%, 80%, 80%, 1);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 1pt;
+  border-right-width: 1pt;
+  border-bottom-width: 1pt;
+  border-left-width: 1pt;
+}
+
+leading_sub_summary:normal .self {
+  background-color: rgba(100%, 100%, 100%, 1);
+  box-sizing: border-box;
+}
+
+title_header:normal .self {
+  background-color: rgba(100%, 100%, 100%, 1);
+  box-sizing: border-box;
+}
+
+button_bar:normal .self {
+  border-top-color: rgba(80%, 80%, 80%, 1);
+  border-right-color: rgba(80%, 80%, 80%, 1);
+  border-bottom-color: rgba(80%, 80%, 80%, 1);
+  border-left-color: rgba(80%, 80%, 80%, 1);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 1pt;
+  border-right-width: 1pt;
+  border-bottom-width: 1pt;
+  border-left-width: 1pt;
+}
+
+button_bar:normal .button_bar_divider {
+  border-top-color: rgba(80%, 80%, 80%, 1);
+  border-right-color: rgba(80%, 80%, 80%, 1);
+  border-bottom-color: rgba(80%, 80%, 80%, 1);
+  border-left-color: rgba(80%, 80%, 80%, 1);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 1pt;
+  border-right-width: 1pt;
+  border-bottom-width: 1pt;
+  border-left-width: 1pt;
+}
+
+radio_set:normal .self {
+  font-size: 12pt;
+  color: rgba(0%, 0%, 0%, 1);
+  line-height: 1.2line;
+  text-align: left;
+}
+
+radio_set:normal .text {
+  margin-left: 0.33em;
+  top: 0pt;
+  right: 0pt;
+  bottom: 0pt;
+  left: 1em;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+radio_set:normal .icon {
+  background-color: rgba(100%, 100%, 100%, 1);
+  border-top-color: rgba(80%, 80%, 80%, 1);
+  border-right-color: rgba(80%, 80%, 80%, 1);
+  border-bottom-color: rgba(80%, 80%, 80%, 1);
+  border-left-color: rgba(80%, 80%, 80%, 1);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 1pt;
+  border-right-width: 1pt;
+  border-bottom-width: 1pt;
+  border-left-width: 1pt;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  border-top-left-radius: 50% 50%;
+  padding-top: 0.17em;
+  padding-right: 0.17em;
+  padding-bottom: 0.17em;
+  padding-left: 0.17em;
+  width: 1em;
+  height: 1em;
+  top: 0.1em;
+  bottom: 0pt;
+  left: 0pt;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+radio_set:focus .icon {
+  border-top-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-right-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-bottom-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-left-color: rgba(0%, 43.9216%, 81.1765%, 1);
+}
+
+radio_set:checked .icon {
+  -fm-icon: radio;
+  -fm-icon-color: rgba(0%, 0%, 0%, 1);
+}
+
+trailing_sub_summary_2:normal .self {
+  background-color: rgba(100%, 100%, 100%, 1);
+  box-sizing: border-box;
+}
+
+edit_box:normal .self {
+  background-color: rgba(100%, 100%, 100%, 1);
+  border-top-color: rgba(80%, 80%, 80%, 1);
+  border-right-color: rgba(80%, 80%, 80%, 1);
+  border-bottom-color: rgba(80%, 80%, 80%, 1);
+  border-left-color: rgba(80%, 80%, 80%, 1);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 1pt;
+  border-right-width: 1pt;
+  border-bottom-width: 1pt;
+  border-left-width: 1pt;
+  font-size: 12pt;
+  color: rgba(0%, 0%, 0%, 1);
+  line-height: 1line;
+  text-align: left;
+}
+
+edit_box:focus .self {
+  border-top-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-right-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-bottom-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-left-color: rgba(0%, 43.9216%, 81.1765%, 1);
+}
+
+edit_box:placeholder .self {
+  color: rgba(80%, 80%, 80%, 1);
+}
+
+edit_box:normal .text {
+  margin-top: 0.25em;
+  margin-right: 0.5em;
+  margin-bottom: 0.17em;
+  margin-left: 0.5em;
+  top: 0pt;
+  right: 0pt;
+  bottom: 0pt;
+  left: 0pt;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+footer:normal .self {
+  background-color: rgba(100%, 100%, 100%, 1);
+  box-sizing: border-box;
+}
+
+chart:normal .self {
+  background-color: rgba(100%, 100%, 100%, 1);
+  border-top-color: rgba(80%, 80%, 80%, 1);
+  border-right-color: rgba(80%, 80%, 80%, 1);
+  border-bottom-color: rgba(80%, 80%, 80%, 1);
+  border-left-color: rgba(80%, 80%, 80%, 1);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 1pt;
+  border-right-width: 1pt;
+  border-bottom-width: 1pt;
+  border-left-width: 1pt;
+  color: rgba(0%, 0%, 0%, 1);
+  line-height: 1line;
+  text-align: left;
+}
+
+chart:focus .self {
+  border-top-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-right-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-bottom-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-left-color: rgba(0%, 43.9216%, 81.1765%, 1);
+}
+
+chart:normal .inner_border {
+  padding-top: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 0.5em;
+}
+
+trailing_sub_summary:normal .self {
+  background-color: rgba(100%, 100%, 100%, 1);
+  box-sizing: border-box;
+}
+
+drop_down:normal .self {
+  background-color: rgba(100%, 100%, 100%, 1);
+  border-top-color: rgba(80%, 80%, 80%, 1);
+  border-right-color: rgba(80%, 80%, 80%, 1);
+  border-bottom-color: rgba(80%, 80%, 80%, 1);
+  border-left-color: rgba(80%, 80%, 80%, 1);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 1pt;
+  border-right-width: 1pt;
+  border-bottom-width: 1pt;
+  border-left-width: 1pt;
+  font-size: 12pt;
+  color: rgba(0%, 0%, 0%, 1);
+  line-height: 1line;
+  text-align: left;
+}
+
+drop_down:focus .self {
+  border-top-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-right-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-bottom-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-left-color: rgba(0%, 43.9216%, 81.1765%, 1);
+}
+
+drop_down:placeholder .self {
+  color: rgba(80%, 80%, 80%, 1);
+}
+
+drop_down:normal .text {
+  margin-top: 0.25em;
+  margin-right: 0.5em;
+  margin-bottom: 0.17em;
+  margin-left: 0.5em;
+  top: 0pt;
+  right: 17pt;
+  bottom: 0pt;
+  left: 0pt;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+drop_down:normal .icon {
+  background-color: rgba(96.0784%, 96.0784%, 96.0784%, 1);
+  border-left-color: rgba(80%, 80%, 80%, 1);
+  border-left-style: solid;
+  border-left-width: 1pt;
+  width: 17pt;
+  top: 0pt;
+  right: 0pt;
+  bottom: 0pt;
+  position: absolute;
+  box-sizing: border-box;
+  -fm-icon: down-arrow;
+  -fm-icon-color: rgba(0%, 0%, 0%, 1);
+}
+
+drop_down:pressed .icon {
+  background-color: rgba(92.1569%, 92.1569%, 92.1569%, 1);
+}
+
+drop_down:focus .icon {
+  border-left-color: rgba(0%, 43.9216%, 81.1765%, 1);
+}
+
+web_viewer:normal .self {
+  background-color: rgba(100%, 100%, 100%, 1);
+  border-top-color: rgba(80%, 80%, 80%, 1);
+  border-right-color: rgba(80%, 80%, 80%, 1);
+  border-bottom-color: rgba(80%, 80%, 80%, 1);
+  border-left-color: rgba(80%, 80%, 80%, 1);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 1pt;
+  border-right-width: 1pt;
+  border-bottom-width: 1pt;
+  border-left-width: 1pt;
+  color: rgba(0%, 0%, 0%, 1);
+  line-height: 1line;
+  text-align: left;
+}
+
+web_viewer:focus .self {
+  border-top-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-right-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-bottom-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-left-color: rgba(0%, 43.9216%, 81.1765%, 1);
+}
+
+web_viewer:normal .inner_border {
+  padding-top: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 0.5em;
+}
+
+title_footer:normal .self {
+  background-color: rgba(100%, 100%, 100%, 1);
+  box-sizing: border-box;
+}
+
+container:normal .self {
+  background-color: rgba(100%, 100%, 100%, 1);
+  border-top-color: rgba(80%, 80%, 80%, 1);
+  border-right-color: rgba(80%, 80%, 80%, 1);
+  border-bottom-color: rgba(80%, 80%, 80%, 1);
+  border-left-color: rgba(80%, 80%, 80%, 1);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 1pt;
+  border-right-width: 1pt;
+  border-bottom-width: 1pt;
+  border-left-width: 1pt;
+  color: rgba(0%, 0%, 0%, 1);
+  line-height: 1line;
+  text-align: left;
+}
+
+container:focus .self {
+  border-top-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-right-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-bottom-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-left-color: rgba(0%, 43.9216%, 81.1765%, 1);
+}
+
+container:placeholder .self {
+  color: rgba(80%, 80%, 80%, 1);
+}
+
+container:normal .inner_border {
+  padding-top: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 0.5em;
+}
+
+leading_sub_summary_2:normal .self {
+  background-color: rgba(100%, 100%, 100%, 1);
+  box-sizing: border-box;
+}
+
+button:normal .self {
+  background-color: rgba(96.0784%, 96.0784%, 96.0784%, 1);
+  border-top-color: rgba(80%, 80%, 80%, 1);
+  border-right-color: rgba(80%, 80%, 80%, 1);
+  border-bottom-color: rgba(80%, 80%, 80%, 1);
+  border-left-color: rgba(80%, 80%, 80%, 1);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 1pt;
+  border-right-width: 1pt;
+  border-bottom-width: 1pt;
+  border-left-width: 1pt;
+  font-size: 12pt;
+  color: rgba(0%, 0%, 0%, 1);
+  line-height: 1line;
+  text-align: center;
+  -fm-text-vertical-align: center;
+}
+
+button:pressed .self {
+  background-image: none;
+  background-color: rgba(92.1569%, 92.1569%, 92.1569%, 1);
+}
+
+button:focus .self {
+  border-top-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-right-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-bottom-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-left-color: rgba(0%, 43.9216%, 81.1765%, 1);
+}
+
+button:normal .inner_border {
+  padding-top: 0.25em;
+  padding-right: 0.5em;
+  padding-bottom: 0.25em;
+  padding-left: 0.5em;
+}
+
+button:normal .text {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+button:normal .icon {
+  -fm-icon-color: rgba(0%, 0%, 0%, 1);
+  -fm-icon-padding: 0.33em;
+}
+
+leading_grand_summary:normal .self {
+  background-color: rgba(100%, 100%, 100%, 1);
+  box-sizing: border-box;
+}
+
+button_bar_segment:normal .self {
+  background-color: rgba(96.0784%, 96.0784%, 96.0784%, 1);
+  font-size: 12pt;
+  color: rgba(0%, 0%, 0%, 1);
+  line-height: 1line;
+  text-align: center;
+  -fm-text-vertical-align: center;
+}
+
+button_bar_segment:hover .self {
+  background-color: rgba(96.0784%, 96.0784%, 96.0784%, 1);
+  color: rgba(0%, 0%, 0%, 1);
+}
+
+button_bar_segment:pressed .self {
+  background-color: rgba(92.1569%, 92.1569%, 92.1569%, 1);
+  color: rgba(0%, 0%, 0%, 1);
+}
+
+button_bar_segment:checked .self {
+  background-color: rgba(100%, 100%, 100%, 1);
+  color: rgba(0%, 0%, 0%, 1);
+}
+
+button_bar_segment:focus .inner_border {
+  box-shadow: inset 0pt 0pt 2pt 1pt rgba(0%, 43.9216%, 81.1765%, 1);
+}
+
+button_bar_segment:normal .text {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+button_bar_segment:normal .icon {
+  -fm-icon-color: rgba(0%, 0%, 0%, 1);
+  -fm-icon-padding: 0.33em;
+}
+
+button_bar_segment:hover .icon {
+  -fm-icon-color: rgba(0%, 0%, 0%, 1);
+}
+
+button_bar_segment:pressed .icon {
+  -fm-icon-color: rgba(0%, 0%, 0%, 1);
+}
+
+button_bar_segment:checked .icon {
+  -fm-icon-color: rgba(0%, 0%, 0%, 1);
+}
+
+header:normal .self {
+  background-color: rgba(100%, 100%, 100%, 1);
+  box-sizing: border-box;
+}
+
+leading_sub_summary_1:normal .self {
+  background-color: rgba(100%, 100%, 100%, 1);
+  box-sizing: border-box;
+}
+
+dot_control:focus .self {
+  border-top-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-right-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-bottom-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-left-color: rgba(0%, 43.9216%, 81.1765%, 1);
+}
+
+dot_control:normal .contents {
+  background-color: rgba(100%, 100%, 100%, 1);
+  border-top-color: rgba(80%, 80%, 80%, 1);
+  border-right-color: rgba(80%, 80%, 80%, 1);
+  border-bottom-color: rgba(80%, 80%, 80%, 1);
+  border-left-color: rgba(80%, 80%, 80%, 1);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 1pt;
+  border-right-width: 1pt;
+  border-bottom-width: 1pt;
+  border-left-width: 1pt;
+  top: 0pt;
+  right: 0pt;
+  bottom: 21pt;
+  left: 0pt;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+dot_control:normal .dot {
+  background-color: rgba(80%, 80%, 80%, 1);
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  border-top-left-radius: 50% 50%;
+  margin-left: 0.33em;
+  width: 9pt;
+  height: 9pt;
+}
+
+dot_control:checked .dot {
+  background-image: none;
+  background-color: rgba(0%, 0%, 0%, 1);
+}
+
+dot_control:normal .dot_container {
+  height: 15pt;
+  right: 0pt;
+  bottom: 0.25em;
+  left: 0pt;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+text_area:normal .self {
+  background-color: rgba(100%, 100%, 100%, 1);
+  border-top-color: rgba(80%, 80%, 80%, 1);
+  border-right-color: rgba(80%, 80%, 80%, 1);
+  border-bottom-color: rgba(80%, 80%, 80%, 1);
+  border-left-color: rgba(80%, 80%, 80%, 1);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 1pt;
+  border-right-width: 1pt;
+  border-bottom-width: 1pt;
+  border-left-width: 1pt;
+  font-size: 12pt;
+  color: rgba(0%, 0%, 0%, 1);
+  line-height: 1line;
+  text-align: left;
+}
+
+text_area:focus .self {
+  border-top-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-right-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-bottom-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-left-color: rgba(0%, 43.9216%, 81.1765%, 1);
+}
+
+text_area:placeholder .self {
+  color: rgba(80%, 80%, 80%, 1);
+}
+
+text_area:normal .text {
+  margin-top: 0.25em;
+  margin-right: 0.5em;
+  margin-bottom: 0.17em;
+  margin-left: 0.5em;
+  top: 0pt;
+  right: 17pt;
+  bottom: 0pt;
+  left: 0pt;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+text_area:normal .scrollbar_track {
+  width: 17pt;
+  top: 0pt;
+  right: 0pt;
+  bottom: 0pt;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+tab_control:normal .self {
+  font-size: 12pt;
+  color: rgba(0%, 0%, 0%, 1);
+  line-height: 1line;
+  text-align: left;
+  -fm-tab-spacing: -1;
+}
+
+body:normal .self {
+  background-color: rgba(100%, 100%, 100%, 1);
+  box-sizing: border-box;
+  -fm-use-body-current-row-style: true;
+}
+
+body:checked .self {
+  background-image: none;
+  background-color: rgba(90.1961%, 93.7255%, 97.6471%, 1);
+  border-image-source: none;
+}
+
+field:normal .baseline {
+  border-bottom-width: 1pt;
+}
+
+trailing_sub_summary_1:normal .self {
+  background-color: rgba(100%, 100%, 100%, 1);
+  box-sizing: border-box;
+}
+
+pop_up:normal .self {
+  background-color: rgba(100%, 100%, 100%, 1);
+  border-top-color: rgba(80%, 80%, 80%, 1);
+  border-right-color: rgba(80%, 80%, 80%, 1);
+  border-bottom-color: rgba(80%, 80%, 80%, 1);
+  border-left-color: rgba(80%, 80%, 80%, 1);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 1pt;
+  border-right-width: 1pt;
+  border-bottom-width: 1pt;
+  border-left-width: 1pt;
+  font-size: 12pt;
+  color: rgba(0%, 0%, 0%, 1);
+  line-height: 1line;
+  text-align: left;
+}
+
+pop_up:pressed .self {
+  background-color: rgba(92.1569%, 92.1569%, 92.1569%, 1);
+}
+
+pop_up:focus .self {
+  border-top-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-right-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-bottom-color: rgba(0%, 43.9216%, 81.1765%, 1);
+  border-left-color: rgba(0%, 43.9216%, 81.1765%, 1);
+}
+
+pop_up:placeholder .self {
+  color: rgba(80%, 80%, 80%, 1);
+}
+
+pop_up:normal .text {
+  margin-top: 0.25em;
+  margin-right: 0.5em;
+  margin-bottom: 0.17em;
+  margin-left: 0.5em;
+  top: 0pt;
+  right: 17pt;
+  bottom: 0pt;
+  left: 0pt;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+pop_up:normal .icon {
+  width: 17pt;
+  top: 0pt;
+  right: 0pt;
+  bottom: 0pt;
+  position: absolute;
+  box-sizing: border-box;
+  -fm-icon: down-arrow;
+  -fm-icon-color: rgba(0%, 0%, 0%, 1);
+}
+
+/* Custom Styles */
